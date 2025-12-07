@@ -1,0 +1,65 @@
+PERFUME,LINHA,GENERO,FAMILIA,PERIODO,OCASIAO,ESTILO,ESTACAO,ORCAMENTO,INTENSIDADE
+Arbo,ARBO,M,Amadeirado Fresco,Dia,Trabalho / Reuniões / Viagens,Visionário / Sofisticado,Todas estações,maior que 200,alta/ Muito alta
+Arbo Atlântica,ARBO,M,Amadeirado Fresco,Noite,Trabalho / Reuniões / Viagens,Visionário / Sofisticado,Todas estações,maior que 200,alta/ Muito alta
+Arbo Botanic,ARBO,M,Amadeirado,Versatil,Trabalho / Reuniões / Viagens,Visionário / Sofisticado,Todas estações,maior que 200,alta/ Muito alta
+Arbo Forest,ARBO,M,Amadeirado Cítrico,Noite,Trabalho / Reuniões / Viagens,Visionário / Sofisticado,Verão / primavera,maior que 200,alta/ Muito alta
+Arbo Intenso,ARBO,M,Amadeirado Aromático,Noite,Trabalho / Reuniões / Viagens,Visionário / Sofisticado,Todas estações,maior que 200,alta/ Muito alta
+Arbo Liberté,ARBO,M,Chypre Amadeirado,Noite,Trabalho / Eventos Culturais,Criativo / Culto,Todas estações,maior que 200,moderada
+Arbo Puro,ARBO,M,Amadeirado,Noite,Trabalho / Reuniões / Viagens,Caloroso / Elegante,Todas estações,maior que 200,alta/ Muito alta
+Botica 214 Dark Mint,BOTICA 214,M,Chypre Amadeirado,Noite,Trabalho / Eventos Culturais,Criativo / Culto,Todas estações,maior que 200,moderada
+Botica 214 Fiji Paradise,BOTICA 214,M,Chypre Amadeirado,Dia,Trabalho / Eventos Culturais,Criativo / Culto,Todas estações,maior que 200,moderada
+Botica 214 Sevilla Dorada,BOTICA 214,M,Chypre Amadeirado,Dia,Trabalho / Dia a dia,Marcante,Todas estações,maior que 200,alta/ Muito alta
+Botica 214 Verano en Firenze,BOTICA 214,M,Fougère Amadeirado,Noite,Trabalho / Dia a dia,Explorador,Todas estações,maior que 200,moderada
+Boticollection Connexion,BOTICOLLECTION,M,Amadeirado Aromático,Dia,Noite / Ocasiões Especiais,Confiante / Líder,Inverno / Outono,menor que 200,alta/ Muito alta
+Boticollection Horizonte,BOTICOLLECTION,M,Fougère Verde,Dia,Pós-banho / Dia a dia,Prático / Descomplicado,Verão / primavera,menor que 200,moderada
+Boticollection Portinari,BOTICOLLECTION,M,Fougère Especiado,Noite,Tarde / Noite de Verão,Sofisticado / Elegante,Verão / primavera,menor que 200,alta/ Muito alta
+Boticollection Portinari Absoluto,BOTICOLLECTION,M,Fougère Aromático,Noite,Pós-banho / Dia a dia,Prático / Descomplicado,Verão / primavera,menor que 200,moderada
+Boticollection Portinari Memórias,BOTICOLLECTION,M,Fougère Aromático,Noite,Pós-banho / Dia a dia,Prático / Descomplicado,Verão / primavera,menor que 200,moderada
+Boticollection Styletto,BOTICOLLECTION,M,Fougère Especiado,Dia,Tarde / Noite de Verão,Sofisticado / Elegante,Verão / primavera,menor que 200,alta/ Muito alta
+Celebre Sua Força,CELEBRE,M,Oriental Amadeirado,Dia,Noite / Ocasiões Especiais,Sensual Intenso,Inverno / Outono,menor que 200,alta/ Muito alta
+Coffee Addictive Oriental,COFFEE,M,Chypre Amadeirado,Noite,Noite / Ocasiões Especiais,Confiante / Líder,Inverno / Outono,maior que 200,alta/ Muito alta
+Coffee Man,COFFEE,M,Amadeirado Especiado,Versatil,Noite / Ocasiões Especiais,Misterioso,Inverno / Outono,maior que 200,alta/ Muito alta
+Coffee Man Duo,COFFEE,M,Amadeirado Aromático,Dia,Noite / Ocasiões Especiais,Exclusivo,Inverno / Outono,maior que 200,alta/ Muito alta
+Coffee Man Lucky,COFFEE,M,Amadeirado Aromático,Versatil,Noite / Ocasiões Especiais,Confiante / Líder,Inverno / Outono,maior que 200,alta/ Muito alta
+Coffee Man Seduction,COFFEE,M,Amadeirado Ambarado,Dia,Noite / Ocasiões Especiais,Luxuoso / Sedutor,Inverno / Outono,maior que 200,alta/ Muito alta
+Coffee Man Unique,COFFEE,M,Amadeirado Frutal,Versatil,Noite / Ocasiões Especiais,Atraente,Inverno / Outono,maior que 200,alta/ Muito alta
+Egeo Beat,EGEO,M,Fougère Aromático,Dia,Noite / Eventos Especiais,Sofisticado / Elegante,Inverno / Outono,menor que 200,alta/ Muito alta
+Egeo Blue,EGEO,M,Oriental Especiado,Noite,Dia a dia / Academia / Clima quente / Pós-banho,Sensual / Versátil,Todas estações,menor que 200,alta/ Muito alta
+Egeo Bomb Black,EGEO,M,Amadeirado,Dia,Noite / Eventos Especiais,Sofisticado / Elegante,Todas estações,menor que 200,alta/ Muito alta
+Egeo Original,EGEO,M,Amadeirado Aromático,Dia,Noite / Ocasiões Especiais,Confiante / Líder,Inverno / Outono,menor que 200,alta/ Muito alta
+Egeo Spicy Vibe,EGEO,M,Amadeirado Especiado,Versatil,Noite / Ocasiões Especiais,Misterioso,Inverno / Outono,menor que 200,alta/ Muito alta
+Malbec,MALBEC,M,Fougère Fresco,Dia,Lazer / Natureza / Dia,Aventureiro / Livre,Todas estações,maior que 200,alta/ Muito alta
+Malbec Absoluto,MALBEC,M,Fougère Amadeirado,Versatil,Encontros / Noite,Sedutor / Moderno,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Black,MALBEC,M,Oriental Ambarado,Versatil,Encontros / Noite,Sedutor / Moderno,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Bleu,MALBEC,M,Fougère Fresco,Versatil,Lazer / Natureza / Dia,Aventureiro / Livre,Verão / primavera,maior que 200,moderada
+Malbec Gold,MALBEC,M,Oriental Ambarado,Dia,Encontros / Noite,Sedutor / Moderno,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Icon,MALBEC,M,Fougère Aromático,Noite,Lazer / Natureza / Dia,Aventureiro / Livre,Verão / primavera,maior que 200,moderada
+Malbec Magnetic,MALBEC,M,Fougère Fresco,Versatil,Lazer / Natureza / Dia,Aventureiro / Livre,Verão / primavera,maior que 200,moderada
+Malbec Noir,MALBEC,M,Oriental Amadeirado,Dia,Encontros / Noite,Sedutor / Moderno,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Signature,MALBEC,M,Oriental Ambarado,Versatil,Encontros / Noite,Sedutor / Moderno,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Ultra Blue,MALBEC,M,Fougère Ambarado,Noite,Encontros / Noite,Criativo,Inverno / Outono,maior que 200,alta/ Muito alta
+Malbec Vert,MALBEC,M,Fougère Fresco,Dia,Lazer / Natureza / Dia,Aventureiro / Livre,Verão / primavera,maior que 200,moderada
+Malbec X,MALBEC,M,Fougère Aromático,Dia,Lazer / Natureza / Dia,Aventureiro / Livre,Verão / primavera,maior que 200,moderada
+Men,MEN,M,Amadeirado Fresco,Versatil,Dia / Trabalho,Confiante / Líder,Verão / primavera,menor que 200,alta/ Muito alta
+Men Galbe,MEN,M,Fougère Aromático,Versatil,Dia a dia / Academia,Prático / Otimista,Todas estações,menor que 200,moderada
+Men Only,MEN,M,Fougère Amadeirado,Dia,Dia a dia / Trabalho,Clássico / Tradicional,Todas estações,menor que 200,moderada
+Quasar,QUASAR,M,Fougère Aromático,Noite,Dia / Noite,Sensual / Versátil,Todas estações,menor que 200,moderada
+Quasar Brave,QUASAR,M,Oriental Fougère,Noite,Dia / Noite,Intenso / Versátil,Todas estações,menor que 200,alta/ Muito alta
+Quasar Drop XY,QUASAR,M,Fougère Fresco,Dia,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Quasar Fire,QUASAR,M,Fougère Aquático,Noite,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Quasar Graffiti,QUASAR,M,Fougère Amadeirado,Versatil,Dia / Noite,Fresco / Sofisticado,Verão / primavera,menor que 200,alta/ Muito alta
+Quasar Ice,QUASAR,M,Fougère Fresco,Noite,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Quasar Next,QUASAR,M,Fougère Fresco,Dia,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Quasar Rush,QUASAR,M,Amadeirado Especiado,Dia,Dia / Noite,Sensual / Versátil,Todas estações,menor que 200,moderada
+Quasar Surf,QUASAR,M,Fougère Amadeirado,Noite,Dia / Academia / Trabalho,Energético / Determinado,Todas estações,menor que 200,alta/ Muito alta
+Quasar Vision,QUASAR,M,Fougère Aromático,Dia,Dia / Noite,Sensual / Versátil,Todas estações,menor que 200,moderada
+Uomini,UOMINI,M,Fougère Aldeídico,Dia,Dia / Academia / Trabalho,Extremamente Fresco,Verão / primavera,menor que 200,moderada
+Uomini Black,UOMINI,M,Fougère Fresco,Versatil,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Uomini Infinite,UOMINI,M,Fougère Fresco,Dia,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Uomini Moto Soul,UOMINI,M,Fougère Fresco,Dia,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,menor que 200,moderada
+Zaad,ZAAD,M,Fougère Gourmand (Caramelo),Versatil,Balada / Festas,Divertido / Jovem,Inverno / Outono,maior que 200,alta/ Muito alta
+Zaad Arctic,ZAAD,M,Fougère Fresco,Versatil,Dia / Academia / Trabalho,Energético / Determinado,Verão / primavera,maior que 200,moderada
+Zaad Expedition,ZAAD,M,Fougère Ambarado,Noite,Balada / Festas,Divertido / Jovem,Todas estações,maior que 200,alta/ Muito alta
+Zaad Go,ZAAD,M,Fougère Ambarado,Dia,Balada / Festas,Divertido / Jovem,Todas estações,maior que 200,alta/ Muito alta
+Zaad Mondo,ZAAD,M,Fougère Especiado,Dia,Balada / Festas,Divertido / Jovem,Todas estações,maior que 200,alta/ Muito alta
+Zaad Santal,ZAAD,M,Oriental Aromático,Versatil,Balada / Festas,Divertido / Jovem,Todas estações,maior que 200,alta/ Muito alta
