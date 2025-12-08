@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Alquimista Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #9cf0aa2c; display: flex; flex-direction: column; align-items: center; height: 100vh;}
+        .card {border: 2px solid black;  background: rgba(205, 206, 205, 0.432); padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; max-width: 400px; width: 100%;}
+        h1 { color: #333; font-size: 24px; margin-bottom: 30px; }
+        .btn { padding: 15px 30px; margin: 10px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: bold; transition: 0.3s; text-decoration: none; display: inline-block; }
+        .btn-sim { background-color: #4CAF50; color: white; }
+        .btn-sim:hover { background-color: #45a049; }
+        .btn-nao { background-color: #f44336; color: white; }
+        .btn-nao:hover { background-color: #d32f2f; }
+        .btn-reset { background-color: #2196F3; color: white; margin-top: 20px; }
+        .result-box { text-align: left; background: #e8f5e9; padding: 15px; border-radius: 8px; margin-bottom: 10px; white-space: pre-wrap; }
+        .tag { font-size: 12px; background: #ddd; padding: 2px 6px; border-radius: 4px; color: #555; }
+        .titulo{
+            font-family: 'Cinzel Decorative', cursive; 
+            font-size: 35px;
+            color: #010402; 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            z-index: 10; 
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+        }
+        .flor-decorativa {
+            position: fixed; /* Fica fixo na tela mesmo se rolar */
+            width: 200px; /* Tamanho da flor */
+            pointer-events: none; /* Permite clicar através da imagem */
+            z-index: 0; /* Fica atrás de tudo */
+        }
+
+        /* Posicionamento dos 4 cantos */
+        .canto-se { bottom: -20px; right: -20px; transform: rotate(0deg); }
+        .canto-ie { bottom: -20px; left: -20px; transform: scaleX(-1); } /* Espelhado */
+        .canto-sd { top: -20px; right: -20px; transform: scaleY(-1); } /* Invertido */
+        .canto-id { top: -20px; left: -20px; transform: rotate(180deg); } /* Girado */
+        .div_pai{max-width: 100%; max-height: 80%; display: flex; align-items: center; justify-content: center; margin-top: 60px; margin-left: 60px;}
+    </style>
+    
+</head>
+<body>
+    <img src="/static/flores.png" class="flor-decorativa canto-se">
+    <img src="/static/flores.png" class="flor-decorativa canto-ie">
+    <img src="/static/flores.png" class="flor-decorativa canto-sd">
+    <img src="/static/flores.png" class="flor-decorativa canto-id">
+    <div class="titulo">O Alquimista Digital</div>
+    <div class="div_pai">
+        <div class="card">
+            <div style="margin-bottom: 20px; font-size: 40px;">🔮</div>
+
+            {% if dados.tipo == 'pergunta' %}
+                <h1>{{ dados.texto }}</h1>
+                <div>
+                    <a href="/responder/1" class="btn btn-sim">SIM</a>
+                    <a href="/responder/0" class="btn btn-nao">NÃO</a>
+                </div>
+                <p style="color: #151313; font-size: 15px; margin-top: 20px; font-weight: bold;">Clique na opção desejada</p>
+
+            {% elif dados.tipo == 'resultado' %}
+                <h2 style="color: #2E8B57;">✨ Recomendação Encontrada!</h2>
+                
+                <div style="max-height: 300px; overflow-y: auto;">
+                    {% for linha in dados.lista %}
+                        {% if linha.strip() != "" %}
+                            <div class="result-box">
+                                {{ linha }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                
+                <a href="/reiniciar" class="btn btn-reset">Começar de Novo</a>
+
+            {% elif dados.tipo == 'fim' %}
+                <h1 style="color: #d32f2f;">❌ Sem resultados</h1>
+                <p>Não encontrei nenhum perfume com essas características exatas.</p>
+                <a href="/reiniciar" class="btn btn-reset">Tentar Outro Caminho</a>
+
+            {% endif %}
+        </div>
+        <div>
+        <img src="../static/genio_perfume.png" width="217px" height="369px">
+    </div>
+    </div>
+</body>
+</html>
